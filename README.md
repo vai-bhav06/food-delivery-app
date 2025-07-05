@@ -34,7 +34,7 @@ A fully responsive **React.js** based food delivery website with cart functional
 ## 📦 Installation & Running Locally
 
 ```bash
-git clone https://github.com/your-username/food-delivery-app.git
+git clone https://github.com/vai-bhav06/food-delivery-app.git
 cd food-delivery-app
 npm install
 npm start
