@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import orderBackground from '../assets/images/orderimg1.jpg';
 
 const PaymentPage = () => {
   const [cart, setCart] = useState([]);
@@ -20,7 +21,7 @@ const PaymentPage = () => {
   };
 
   return (
-    <div className="payment-page">
+    <div className="payment-page" style={{ backgroundImage: `url(${orderBackground})` }}>
     <div className="payment-container">
       <h2>Confirm Your Order</h2>
       <div className="payment-summary">

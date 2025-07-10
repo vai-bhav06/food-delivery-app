@@ -559,3 +559,7 @@ body {
   width: 100%;
   height: auto;
 }
+
+.food-card img{
+  height: 150px;
+}
