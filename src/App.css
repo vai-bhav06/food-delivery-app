@@ -184,16 +184,14 @@ body {
 }
 
 .cart-overlay {
-  
   padding: 2rem;
   border-radius: 16px;
   max-width: 1000px;
   width: 100%;
-
   color: #333;
 }
 
-.cart-page h2 {
+.cart-overlay h2 {
   text-align: center;
   font-size: 2rem;
   color: #f50035;
@@ -201,11 +199,6 @@ body {
   padding: 5px;
   margin-bottom: 2rem;
   font-weight: 700;
-}
-
-.cart-page p{
-  text-align: center;
-  color: #ffffff;
 }
 
 .cart-list {
@@ -217,37 +210,30 @@ body {
 
 .cart-item {
   display: grid;
-  grid-template-columns: 200px 1fr;
-  gap: 1rem;
-  background: #e8dddd;
+  grid-template-columns: 120px 1fr;
+  gap: 1.5rem;
+  background: #f9f9f9;
   border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
   padding: 1rem;
   align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 .cart-img {
-  width: 200px;
-  height: 150px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
   object-fit: cover;
-  border-radius: 12px;
-  flex-shrink: 0;
-}
-
-.cart-details {
-  flex: 1;
 }
 
 .cart-details h4 {
-  margin: 0 0 0.5rem;
-  font-size: 1.1rem;
+  margin: 0;
+  font-size: 1.2rem;
   color: #222;
 }
 
 .cart-details p {
-  margin: 0.25rem 0;
-  font-weight: 500;
+  margin: 0.5rem 0;
   color: #555;
 }
 
@@ -259,42 +245,39 @@ body {
 }
 
 .quantity-stepper button {
-  background: #ff4757;
-  color: white;
+  padding: 0.3rem 0.7rem;
   border: none;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
+  background-color: #333;
+  color: white;
+  border-radius: 6px;
   font-size: 1rem;
   cursor: pointer;
-  transition: background 0.3s ease;
+  transition: background-color 0.3s;
 }
 
 .quantity-stepper button:hover {
-  background: #e84150;
+  background-color: #555;
 }
 
 .quantity-stepper span {
-  font-size: 1.2rem;
-  font-weight: bold;
-  min-width: 24px;
+  min-width: 30px;
   text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 .remove-btn {
-  background: transparent;
-  border: 1px solid #ff4757;
-  color: #ff4757;
-  padding: 0.4rem 1rem;
-  border-radius: 20px;
-  font-weight: 500;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: background-color 0.3s;
 }
 
 .remove-btn:hover {
-  background: #ff4757;
-  color: white;
+  background-color: #c0392b;
 }
 
 .cart-total {
@@ -310,20 +293,18 @@ body {
 }
 
 .primary-btn {
-  background: #2ed573;
-  border: none;
+  background-color: #007BFF;
   color: white;
-  font-weight: 600;
+  border: none;
   padding: 0.75rem 1.5rem;
-  border-radius: 30px;
-  cursor: pointer;
   font-size: 1rem;
-  box-shadow: 0 4px 12px rgba(46, 213, 115, 0.4);
-  transition: background 0.3s ease;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .primary-btn:hover {
-  background: #27ae60;
+  background-color: #0056b3;
 }
 
 /* Contact Page Styles */
@@ -562,16 +543,25 @@ body {
     padding: 1rem;
   }
 
+  .cart-item {
+    flex-direction: column;
+    text-align: center;
+  }
 
-.cart-item {
-  flex-direction: column;
-  text-align: center;
-}
+ 
 
-.cart-img {
-  width: 100%;
-  height: auto;
-}
+  .cart-details {
+    padding-top: 1rem;
+  }
+
+  .quantity-stepper {
+    justify-content: center; /* Add this line */
+  }
+
+  .cart-total {
+    text-align: center;
+  }
+  
 
 .food-card img{
   height: 150px;
