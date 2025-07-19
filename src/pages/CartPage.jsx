@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import cartBackground from '../assets/images/cartt.jfif';
+import cartBackground from '../assets/images/cartbg.jpg';
 
 const CartPage = () => {
   const [cartItems, setCartItems] = useState([]);

@@ -64,7 +64,6 @@ body {
 .primary-btn:hover {
   background: #e84347;
 }
-
 .menu {
   background-size: cover;
   background-position: center;
@@ -76,7 +75,6 @@ body {
 
 .menu-overlay {
   position: relative;
- 
   padding: 2rem;
   border-radius: 10px;
   max-width: 1200px;
@@ -85,8 +83,12 @@ body {
 
 .menu h2 {
   text-align: center;
+  font-size: 2rem;
+  color: #f50035;
+  padding: 5px;
+  background-color: #ffffff;
   margin-bottom: 2rem;
-  color: white;
+  font-weight: 700;
 }
 
 
@@ -193,8 +195,17 @@ body {
 
 .cart-page h2 {
   text-align: center;
-  margin-bottom: 1.5rem;
-  color: #ff4757;
+  font-size: 2rem;
+  color: #f50035;
+  background-color: white;
+  padding: 5px;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+.cart-page p{
+  text-align: center;
+  color: #ffffff;
 }
 
 .cart-list {
@@ -217,8 +228,8 @@ body {
 }
 
 .cart-img {
-  width: 100px;
-  height: 00px;
+  width: 200px;
+  height: 150px;
   object-fit: cover;
   border-radius: 12px;
   flex-shrink: 0;
@@ -295,7 +306,7 @@ body {
 .cart-total h3 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  color: #111;
+  color: #ffffff;
 }
 
 .primary-btn {
@@ -401,7 +412,9 @@ body {
 /* Payment Page Styles */
 .payment-page {
   min-height: 100vh;
-  background: linear-gradient(to right, #fff5f7, #dbeafe);
+  background-size: cover;
+  background-position: center;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -473,7 +486,9 @@ body {
 /* Thank You Page Styles */
 .thankyou-page {
   min-height: 100vh;
-  background: linear-gradient(to right, #fdfbfb, #ebedee);
+  background-size: cover;
+  background-position: center;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -522,8 +537,6 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  
-
   .menu-overlay {
     padding: 1rem;
   }
@@ -548,7 +561,7 @@ body {
   .contact {
     padding: 1rem;
   }
-}
+
 
 .cart-item {
   flex-direction: column;
@@ -562,4 +575,6 @@ body {
 
 .food-card img{
   height: 150px;
+}
+
 }
