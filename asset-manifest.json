@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/food-delivery-app/static/css/main.2e556ce9.css",
+    "main.css": "/food-delivery-app/static/css/main.df38b085.css",
     "main.js": "/food-delivery-app/static/js/main.a711b819.js",
     "static/js/453.141335ca.chunk.js": "/food-delivery-app/static/js/453.141335ca.chunk.js",
     "static/media/cartt.jfif": "/food-delivery-app/static/media/cartt.a6cd5366813a674f18bd.jfif",
@@ -39,12 +39,12 @@
     "static/media/rava-dosa.jpg": "/food-delivery-app/static/media/rava-dosa.a0ca6f8c835018321587.jpg",
     "static/media/paymentbg.jpeg": "/food-delivery-app/static/media/paymentbg.c22831545a3ce87c1b1c.jpeg",
     "index.html": "/food-delivery-app/index.html",
-    "main.2e556ce9.css.map": "/food-delivery-app/static/css/main.2e556ce9.css.map",
+    "main.df38b085.css.map": "/food-delivery-app/static/css/main.df38b085.css.map",
     "main.a711b819.js.map": "/food-delivery-app/static/js/main.a711b819.js.map",
     "453.141335ca.chunk.js.map": "/food-delivery-app/static/js/453.141335ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e556ce9.css",
+    "static/css/main.df38b085.css",
     "static/js/main.a711b819.js"
   ]
 }
