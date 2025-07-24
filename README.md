@@ -3,7 +3,7 @@
 A fully responsive **React.js** based food delivery website with cart functionality, category filtering, payment mockup, and a thank you page — styled using modern CSS and animations.
 
 ![image](https://github.com/user-attachments/assets/1b58b6d1-c775-4d4b-a177-d125edb32845)
-
+Live demo - https://vai-bhav06.github.io/food-delivery-app/
 
 
 
